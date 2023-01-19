@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MohamedDerbali/FuzzyWuzzyJS/issues"
   },
-  "homepage": "https://github.com/MohamedDerbali/FuzzyWuzzyJS#readme"
+  "homepage": "https://github.com/MohamedDerbali/FuzzyWuzzyJS#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
 }
