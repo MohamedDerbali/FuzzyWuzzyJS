@@ -1,3 +1,23 @@
 @echo off
-:create
-git clone --single-branch --branch squeleton https://github.com/MohamedDerbali/FuzzyWuzzyJS.git
+echo "welcome to FUZZY WUZZY CLI" 
+@REM if(%1)==null
+@REM echo "asba"
+@REM if(%1)=="help"
+@REM echo "fw create"
+@REM echo "fw help"
+@REM echo "fw version"
+@REM echo "fw update"
+@REM echo "fw run"
+@REM echo "fw build"
+@REM echo "fw test"
+@REM echo "fw deploy"
+@REM echo "fw publish"
+@REM echo "fw install"
+@REM echo "fw uninstall"
+@REM echo "fw start"
+@REM echo "fw stop"
+@REM echo "fw restart"
+@REM echo "fw status"
+@REM echo "fw list"
+@REM if(%1)=="create"
+@REM git clone --single-branch --branch squeleton https://github.com/MohamedDerbali/FuzzyWuzzyJS.git
