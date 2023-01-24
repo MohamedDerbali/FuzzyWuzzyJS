@@ -1,7 +1,12 @@
-const fuzzyWuzzy = require('fuzzywuzzy-core');
+const fuzzyWuzzy = require('@fuzzywuzzyjs/core');
 const http = require('http');
 
 const app = fuzzyWuzzy();
+app.createRoutes([
+    { path: '/', method: 'GET', handler: (req, res) => {
+        res.send('Hello World');
+    }}
+])
 
 const server = http.createServer(app);
 server.listen(3000, ()=>{
