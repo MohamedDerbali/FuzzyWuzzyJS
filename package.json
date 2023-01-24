@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/MohamedDerbali/FuzzyWuzzyJS#readme",
   "dependencies": {
-    "fuzzywuzzy-core": "^1.0.2"
+    "@fuzzywuzzyjs/core": "^1.0.1"
   }
 }
